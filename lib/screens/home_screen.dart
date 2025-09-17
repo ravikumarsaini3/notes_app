@@ -92,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: !isSearching
-            ? const Text('My Notes')
+            ? const Text('My Notes ')
             : TextField(
           controller: searchController,
           autofocus: true,
@@ -127,7 +127,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   filteredNotes = notes;
                 });
               },
-            ),  SizedBox(width: 10,),
+            ),  SizedBox(width: 11,),
 
         ],
       ),
